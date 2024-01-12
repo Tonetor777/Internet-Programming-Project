@@ -103,8 +103,6 @@ nav a{
   overflow: hidden;
   transition: max-height 0.3s ease-out;
   padding: 10px;
-  text-decoration: none;
-  
 }
 
 input[type="checkbox"] {
@@ -120,7 +118,7 @@ input[type="checkbox"]:checked + .question + .caret {
   transform: rotate(180deg);
 }
 input[type="checkbox"]:checked + .question + .answer   {
-  max-height: 100px; /* Adjust this value based on your content */
+  max-height: 100px;  
 }
 @media (min-width:100px) {
     .answer{
