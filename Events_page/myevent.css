@@ -1,0 +1,129 @@
+.above{
+    background-color: #f0f5f5;
+}
+body{
+  margin: 0;
+}
+h1{
+     font-size: 35px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+}
+h2{
+  padding-left: 170px;
+}
+nav ul{
+    justify-content: start;
+    display: flex;
+    list-style: none;    
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-left: 2px;
+ }
+ nav a:hover{
+    background-color: #ddd7d7;
+  }
+.recent{
+  display: flex;
+  justify-content: center;
+}
+.virtualEvents{
+  display: flex;
+  justify-content: center;
+}
+ .card{
+   background-color: white;
+   border-radius: 8px;
+   margin: 30px;
+   width: 300px;
+   height: 520px;
+ }
+.card_img img{
+  object-fit: cover;
+   padding: 10px;
+   padding-bottom: 10px;
+   padding-left: 14px;
+   border-radius: 10px;
+   width:270px;
+	height:200px;
+  }
+  .below_img{
+    width:270px;
+    height:200px;
+    padding-left: 14px;
+    padding-left: 14px;
+  }
+  span.star{
+    color:orange; 
+ }
+
+ .address{
+ list-style: none;
+ padding: 5px;
+ }
+ .address li{
+    font-size: 14px;
+    margin-bottom: 3px;
+ }
+ .p{
+    color: #7b8994;
+    padding-bottom: 24px;
+    overflow: hidden
+ }
+ .below{
+  margin: 10px;
+ }
+.faq{
+   border-style: solid;
+   border-color: #7b8994;
+   border-width: 1px;
+   align-items: center;
+     
+}
+
+.question {
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px;
+}
+
+.caret {
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  padding: 10px;
+  text-decoration: none;
+  
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  margin-top: 30px;
+  margin-right: 30px;
+  float: right;
+  height: 20px; 
+  content: url(https://cress.gigsalad.com/images/svg/symbols/caret-down.svg);
+  font-size: 20px;
+}
+input[type="checkbox"]:checked + .question + .caret {
+  transform: rotate(180deg);
+}
+input[type="checkbox"]:checked + .question + .answer   {
+  max-height: 100px; /* Adjust this value based on your content */
+}
+@media (min-width:100px) {
+    .answer{
+      height: 200px;
+    } 
+}
