@@ -3,18 +3,15 @@
     margin: 0;
     padding: 0;
 }
-
 nav {
     display: flex;
     justify-content: space-between;
     padding: 5px 25px;
     background-color: rgba(0, 0, 0, 0.1);
-    position: absolute;
+    position:absolute;
     top: 0;
     width: 100%;
-
 }
-
 nav li:hover{
     transform: scale(1.2);
 }
@@ -23,7 +20,7 @@ nav li:hover{
 }
 .dropdown {
     display: none;
-    line-height: 25px;
+    line-height: 20px;
     padding: 5px;
     background-color: rgba(0, 0, 0, 1); 
     position: absolute;
@@ -55,9 +52,8 @@ nav li:hover{
     display: flex;
     justify-content: space-around;
     width: 40%;
-    gap: 5pxpx;
+    gap: 5px;
     list-style: none;
-    
 }
 ul li {
     display: grid;
@@ -105,7 +101,7 @@ ul li {
 }
 .search {
     padding: 8px;
-    width: 300px;
+    width: 70%;
     border: none;
     border-radius: 2px;
     margin-top: 15px;
