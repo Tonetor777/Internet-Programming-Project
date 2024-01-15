@@ -1,0 +1,11 @@
+.service_head {
+    background-image: url("../Resources/Images/wedding/weddingbg.jpg");
+    background-size: cover;
+}
+.service {
+    color: rgb(214, 231, 252);
+}
+
+.services {
+    background-color: rgb(188, 236, 255);
+}

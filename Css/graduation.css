@@ -1,0 +1,11 @@
+.service_head {
+    background-image: url("../Resources/Images/graduation/graduationbg.jpg");
+    background-size: cover;
+}
+.service {
+    color: rgb(255, 245, 212);
+}
+
+.services {
+    background-color: rgb(172, 172, 172);
+}

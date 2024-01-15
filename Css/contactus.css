@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-image: url("../Resources/Images/home_page/header_bg.jpg");
+    height: 300px;
+}
+
+main {
+    padding: 40px 0;
+    width: 80%;
+    margin: 30px auto;
+    color: white;
+    background-image: url("../Resources/Images/contactus/contact.jpg");
+    background-size: contain;
+}
+
+h2 {
+    color: #fffdfd;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    background: rgba (255, 255, 255, .1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background: #e8491d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #333;
+}
+
+.contactus {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+} 
+
+.contactus img {
+    margin-right: 15px;
+    width: 30px;
+}
+h4 {
+    display: inline-block;
+    font-size: 22px;
+}

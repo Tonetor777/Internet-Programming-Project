@@ -1,0 +1,72 @@
+.about_us_head {
+    position: relative;
+    background-image: url("../Resources/Images/about_us/concert.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: -1;
+}
+.about_linke {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 30px;
+    margin: 15px auto;
+    background-color: rgb(215, 227, 238);
+    width: 60%;
+}
+.about {
+    padding: 20px 20px 20px 60px;
+    position: absolute;
+    bottom: 40px;
+    background-color: black;
+    width: 500px;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+.about_us {
+    font-size: 5vw;
+    margin-bottom: 15px;
+}
+.about_us_disc {
+    padding: 15px;
+    text-align: justify;
+}
+
+.our_team {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+
+.team{
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(216, 216, 216, 0.829);
+    margin: 20px 80px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    
+}
+
+.team_member {
+    background-color: white; 
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.team_member img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.team_member h4 {
+    margin-top: 10px;
+    color: blue;
+}
