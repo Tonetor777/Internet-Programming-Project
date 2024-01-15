@@ -1,6 +1,5 @@
 body {
-    background-image: url("../Resources/Images/funeral/hydrangea.jpg");
-    background-size:contain;
+    background-color: rgb(104, 104, 104) ;
 }
 
 .service_head {

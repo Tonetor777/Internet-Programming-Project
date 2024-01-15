@@ -27,36 +27,33 @@ h1{
 }
 .recent{
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .virtualEvents{
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
  .card{
    background-color: rgb(231, 231, 231);
    border-radius: 8px;
-   margin: 30px;
-   width: 300px;
+   margin: 30px auto;
+   width: 50%;
    height: 500px;
    display: grid;
    place-items: center;
    
  }
+
+ .card_img {
+  width: 80%;
+ }
 .card_img img{
    object-fit: cover;
-   padding: 10px;
-   padding-bottom: 10px;
-   padding-left: 14px;
    border-radius: 10px;
-   width:270px;
+   width:100%;
 	 height:200px;
-  }
-  .below_img{
-    width:270px;
-    height:200px;
-    padding-left: 14px;
-    padding-left: 14px;
   }
  .p{
     color: #4e4e4e;
@@ -65,4 +62,13 @@ h1{
  }
  h3 {
   text-align: center;
+ }
+
+ @media (min-width: 900px){
+    .recent , .virtualEvents {
+      flex-direction: row;
+    }
+    .card{
+      margin: 30px;
+    }
  }

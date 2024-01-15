@@ -3,6 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const checkbox = document.getElementById("check");
+        const links = document.querySelector(".links");
+
+        checkbox.addEventListener("change", function () {
+          links.style.display = checkbox.checked ? "flex" : "none";
+        });
+      });
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./Css/home.css" />
     <title>LinkE</title>
   </head>
@@ -39,6 +53,12 @@
             <a class="button" href="./login.html" role="button">Login</a>
           </li>
         </ul>
+        <div class="toggle">
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fa fa-bars"></i
+          ></label>
+        </div>
       </nav>
       <section class="head">
         <div class="head_text">
@@ -63,6 +83,7 @@
           </form>
         </div>
         <img
+          class="head_img"
           src="./Resources/Images/home_page/undraw_booking_re_gw4j.svg "
           width="200px"
           alt="logo"
@@ -135,14 +156,11 @@
             perfection. Whether you're an artist looking for a stage to showcase
             your talent or an event organizer aiming to create a show-stopping
             experience, our concert services are tailored to elevate your
-            performance to new heights. From state-of-the-art venues to expert
-            sound engineering, lighting design, and seamless event management –
-            we specialize in bringing your musical vision to life. Join us on a
-            journey where passion meets precision, and where the energy of live
-            music resonates with the audience, creating memories that echo long
-            after the last encore. Let us set the stage for your musical
-            masterpiece, ensuring an unforgettable concert experience for
-            performers and audiences alike
+            performance to new heights. Join us on a journey where passion meets
+            precision, and where the energy of live music resonates with the
+            audience, creating memories that echo long after the last encore.
+            Let us set the stage for your musical masterpiece, ensuring an
+            unforgettable concert experience for performers and audiences alike
           </p>
           <a href="./concert.html"
             ><button class="button explore" type="submit">EXPLORE</button></a
@@ -157,14 +175,11 @@
             embrace, guiding you through the delicate process of saying goodbye
             to a cherished life. With compassion as our cornerstone, we offer
             support in crafting a meaningful farewell that honors the memory of
-            your loved one. Our dedicated team handles every detail with
-            reverence, from respectful funeral arrangements to serene venues and
-            thoughtful memorial services. We understand the importance of
-            preserving the essence of a life well-lived. Trust us to create a
-            dignified and heartfelt farewell, allowing you to focus on
-            remembrance and finding solace. In these moments of grief, let us be
-            your pillar of strength, providing compassion and support to ease
-            the journey of saying goodbye.
+            your loved one. Trust us to create a dignified and heartfelt
+            farewell, allowing you to focus on remembrance and finding solace.
+            In these moments of grief, let us be your pillar of strength,
+            providing compassion and support to ease the journey of saying
+            goodbye.
           </p>
           <a href="./funeral.html"
             ><button class="button explore" type="submit">EXPLORE</button></a
@@ -189,15 +204,12 @@
             journey with our specialized graduation services. Whether you're an
             educational institution organizing a commencement ceremony or a
             graduate seeking the perfect setting for your milestone achievement,
-            we are here to make your graduation memorable. From elegant venues
-            and meticulous event planning to professional photography and
-            customized graduation regalia, our services are tailored to honor
-            your accomplishments. Step onto the stage with confidence, knowing
-            that your graduation day is marked by precision, pride, and the
-            promise of a bright future. Let us be a part of your academic
-            success story, ensuring that your graduation is a momentous occasion
-            filled with joy, recognition, and the anticipation of exciting
-            possibilities ahead.
+            we are here to make your graduation memorable. Step onto the stage
+            with confidence, knowing that your graduation day is marked by
+            precision, pride, and the promise of a bright future. Let us be a
+            part of your academic success story, ensuring that your graduation
+            is a momentous occasion filled with joy, recognition, and the
+            anticipation of exciting possibilities ahead.
           </p>
           <a href="./graduation.html"
             ><button class="button explore" type="submit">EXPLORE</button></a
