@@ -36,7 +36,12 @@ input {
   margin-bottom: 16px;
   box-sizing: border-box;
 }
-
+#customersignup input {
+  border: 1px solid black;
+}
+#custemersignup input[type="submit"] {
+  max-width: 20%;
+}
 .name-group {
   display: flex;
   justify-content: space-between;
@@ -55,12 +60,9 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  width: 80px; 
+  width: 80px;
 }
 
-button:hover {
-  background-color: #87ceeb;
-}
 .last {
   margin-left: 5%;
 }

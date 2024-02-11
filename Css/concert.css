@@ -1,15 +1,10 @@
 .service_head {
-    background-image: url("../Resources/Images/about_us/concert.jpg");
-    background-size: cover;
+  background-image: url("../Resources/Images/about_us/concert.jpg");
+  background-size: cover;
 }
 .service {
-    color: rgb(214, 231, 252);
+  color: white;
 }
-
 .services {
-    background-color: rgba(77, 5, 0, 0.678);
-}
-
-.services h1{
-    color: white;
+  border-radius: 30px;
 }

@@ -1,8 +1,11 @@
 .service_head {
-    background-image: url("../Resources/Images/birthday/birthdaybg.jpg");
-    background-size: cover;
+  background-image: url("../Resources/Images/birthday/birthdaybg.jpg");
+  background-size: cover;
 }
 
 .service {
-    color: pink;
+  color: white;
+}
+.services {
+  border-radius: 30px;
 }

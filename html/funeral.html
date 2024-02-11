@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const checkbox = document.getElementById("check");
+        const links = document.querySelector(".links");
+
+        checkbox.addEventListener("change", function () {
+          links.style.display = checkbox.checked ? "flex" : "none";
+        });
+      });
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../Css/home.css" />
+    <link rel="stylesheet" href="../Css/services.css" />
+    <link rel="stylesheet" href="../Css/funeral.css" />
+    <title>Funeral_services</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <img
+            src="../Resources/Images/home_page/logos.png "
+            width="150px"
+            alt="logo"
+          />
+        </ul>
+        <ul class="links">
+          <li><a href="../home.html">Home</a></li>
+          <li>
+            <a href="./about.html" target="_blank">About</a>
+          </li>
+          <li>
+            <div class="dropdown_menu">
+              <a href="#">Services</a>
+              <div class="dropdown">
+                <a href="./wedding.html">Weeding</a>
+                <a href="./birthday.html">Birthday</a>
+                <a href="./funeral.html">Funeral</a>
+                <a href="./graduation.html">Graduation</a>
+                <a href="./concert.html">Concert</a>
+              </div>
+            </div>
+          </li>
+          <li><a href="./events.html">Event</a></li>
+          <li><a href="./contactus.html">Contact</a></li>
+          <li>
+            <a class="button" href="./login.html" role="button">Login</a>
+          </li>
+        </ul>
+        <div class="toggle">
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fa fa-bars"></i
+          ></label>
+        </div>
+      </nav>
+      <section class="service_head">
+        <h1 class="service">Funeral_Services</h1>
+      </section>
+    </header>
+    <main class="service_lists">
+      <div class="services">
+        <div class="catering">
+          <h1>Catering</h1>
+          <div class="box-container">
+            <div class="box">
+              <img
+                src="../Resources/Images/funeral/catering 1.jpg"
+                alt="Burger Image"
+              />
+              <h2>Culinary Craft Caterings</h2>
+              <div class="rating">
+                <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>5.0(89)
+              </div>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps?q=123+Main+St"
+                  target="_blank"
+                  >&#127968;Nifas silk lafto 230 street</a
+                >
+                <br />
+              </p>
+              <p class="comment">
+                Savor the moment with our catering expertise—crafted flavors,
+                impeccable service. Elevate your events with a taste of
+                excellence.
+              </p>
+              <button type="submit">
+                <a
+                  href="../individual/funeral/catering/Catering 1/individual.html"
+                  class="contactbtn"
+                  >Contact</a
+                >
+              </button>
+            </div>
+
+            <div class="box">
+              <img
+                src="../Resources/Images/funeral/catering2.jpg"
+                alt="Pizza Image"
+              />
+              <h2>Elegant Edibles Catering</h2>
+              <div class="rating">
+                <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>5.0(123)
+              </div>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps?q=123+Main+St"
+                  target="_blank"
+                  >&#127968;Megenagna on metebaber building</a
+                >
+                <br />
+              </p>
+
+              <p class="comment">
+                Find solace in our compassionate funeral catering, where
+                thoughtful service meets comforting cuisine..
+              </p>
+              <button type="submit">
+                <a
+                  href="../individual/funeral/catering/Catering 2/individual.html"
+                  class="contactbtn"
+                  >Contact</a
+                >
+              </button>
+            </div>
+
+            <div class="box">
+              <img
+                src="../Resources/Images/funeral/catering3.jpg"
+                alt="Special Image"
+              />
+              <h2>SophistiSurprises</h2>
+              <div class="rating">
+                <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>5.0(8)
+              </div>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps?q=789+Maple+St"
+                  target="_blank"
+                  >&#127968; 22 next to golagol building</a
+                >
+                <br />
+              </p>
+              <p class="comment">
+                Compassionate catering for solemn moments, offering support
+                through thoughtful service and comfort in every bite
+              </p>
+              <button type="submit">
+                <a
+                  href="../individual/funeral/catering/Catering 3/individual.html"
+                  class="contactbtn"
+                  >Contact</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="boxes">
+          <h1>Boxes</h1>
+          <div class="box-container">
+            <div class="box">
+              <img
+                src="../Resources/Images/funeral/funeralboxes.jpg"
+                alt="flavor fusion"
+              />
+              <h2>Tranquil Farewell Boxes</h2>
+              <div class="rating">
+                <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                5.0(234)
+              </div>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps?q=123+Main+St"
+                  target="_blank"
+                  >&#127968;Nifas silk lafto 957 street</a
+                >
+                <br />
+              </p>
+
+              <p class="comment">
+                Offering solace in every detail, our funeral boxes provide a
+                dignified and compassionate farewell, embracing cherished
+                memories with grace and tranquility
+              </p>
+              <button type="submit">
+                <a
+                  href="../individual/funeral/boxes/Boxes 1/individual.html"
+                  class="contactbtn"
+                  >Contact</a
+                >
+              </button>
+            </div>
+
+            <div class="box">
+              <img
+                src="../Resources/Images/funeral/funeralboxes 2.jpg"
+                alt="Pizza Image"
+              />
+              <h2>Everlasting Tribute Boxes</h2>
+              <div class="rating">
+                <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>5.0(8997)
+              </div>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps?q=123+Main+St"
+                  target="_blank"
+                  >&#127968;Nifas silk lafto 957 street</a
+                >
+                <br />
+              </p>
+
+              <p class="comment">
+                Sending off your loved ones with a wink and a nod. Our funeral
+                boxes: where memories meet a dash of humor on life's final
+                stage.
+              </p>
+              <button type="submit">
+                <a
+                  href="../individual/funeral/boxes/Boxes 2/individual.html"
+                  class="contactbtn"
+                  >Contact</a
+                >
+              </button>
+            </div>
+
+            <div class="box">
+              <img
+                src="../Resources/Images/funeral/funeralboxes 3.jpg"
+                alt="Special Image"
+              />
+              <h2>Sacred Rest Boxes</h2>
+              <div class="rating">
+                <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>5.0(213)
+              </div>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps?q=789+Maple+St"
+                  target="_blank"
+                  >&#127968; Lebu mebrat hayl infront of varnero</a
+                >
+                <br />
+              </p>
+
+              <p class="comment">
+                Guided by compassion, our funeral boxes offer a serene tribute,
+                honoring cherished memories and providing solace in times of
+                farewell.
+              </p>
+              <button type="submit">
+                <a
+                  href="../individual/funeral/boxes/Boxes 3/individual.html"
+                  class="contactbtn"
+                  >Contact</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="transportaion">
+          <h1>Transportation</h1>
+          <div class="box-container">
+            <div class="box">
+              <img
+                src="../Resources/Images/funeral/FuneralCars 1.jpg"
+                alt="Disney"
+              />
+              <h2>Tranquility Transport Co</h2>
+              <div class="rating">
+                <span>&#9733;&#9733;&#9733;&#9734;&#9734;</span>5.0(467)
+              </div>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps?q=123+Main+St"
+                  target="_blank"
+                  >&#127968;infont of bora amusement park</a
+                >
+                <br />
+              </p>
+              <p class="comment">
+                In moments of sorrow, trust our compassionate fleet to convey
+                your deepest sentiments with reverence and poise, offering a
+                seamless and respectful transition.
+              </p>
+              <button type="submit">
+                <a
+                  href="../individual/funeral/transportaion/Transportation 1/individual.html"
+                  class="contactbtn"
+                  >Contact</a
+                >
+              </button>
+            </div>
+
+            <div class="box">
+              <img
+                src="../Resources/Images/funeral/funeralcars 2.jpg"
+                alt="Petite"
+              />
+              <h2>Saris</h2>
+              <div class="rating">
+                <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>5.0(8786)
+              </div>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps?q=456+Oak+St"
+                  target="_blank"
+                  >&#127968; 6 kilo</a
+                >
+                <br />
+              </p>
+              <p class="comment">
+                Our dignified funeral cars provide a comforting journey,
+                ensuring a peaceful and respectful farewell for your loved ones,
+                marked by grace and tranquility.
+              </p>
+              <button type="submit">
+                <a
+                  href="../individual/funeral/transportaion/Transportation 2/individual.html"
+                  class="contactbtn"
+                  >Contact</a
+                >
+              </button>
+            </div>
+
+            <div class="box">
+              <img
+                src="../Resources/Images/funeral/funeral cars 3.jpg"
+                alt="Sweet beauty"
+              />
+              <h2>Peaceful Farewell Cars</h2>
+              <div class="rating">
+                <span>&#9733;&#9733;&#9733;&#9734;&#9734;</span>5.0(490)
+              </div>
+              <p>
+                bole medhanialem behind getu commercial
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps?q=789+Maple+St"
+                  target="_blank"
+                  >&#127968; summit</a
+                >
+                <br />
+              </p>
+
+              <p class="comment">
+                Elevate the tribute to your dearly departed with our serene
+                funeral transport, where each journey is a reflection of love,
+                respect, and the cherished memories that live on.
+              </p>
+              <button type="submit">
+                <a
+                  href="../individual/funeral/transportaion/Transportation 3/individual.html"
+                  class="contactbtn"
+                  >Contact</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h1>Card</h1>
+          <div class="box-container">
+            <div class="box">
+              <img
+                src="../Resources/Images/funeral/funeral card 1.jpg"
+                alt="diseny dreams cafe"
+              />
+              <h2>Eternal Memories Cards</h2>
+              <div class="rating">
+                <span>&#9733;&#9733;&#9733;&#9733;</span>
+                <span>&#9734;</span>
+                5.0(345)
+              </div>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps?q=123+Main+St"
+                  target="_blank"
+                  >&#127968;mexico mesqel square</a
+                >
+                <br />
+              </p>
+
+              <p class="comment">
+                Express your condolences with our beautifully crafted funeral
+                cards, offering a heartfelt tribute to commemorate and honor the
+                life of your loved ones with grace.
+              </p>
+              <button type="submit">
+                <a
+                  href="../individual/funeral/cards/Cards 1/individual.html"
+                  class="contactbtn"
+                  >Contact</a
+                >
+              </button>
+            </div>
+
+            <div class="box">
+              <img
+                src="../Resources/Images/funeral/funeral card 2.jpg"
+                alt="Pizza Image"
+              />
+              <h2>Sympathy Sentiments Cards</h2>
+              <div class="rating">
+                <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>5.0(878)
+              </div>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps?q=456+Oak+St"
+                  target="_blank"
+                  >&#127968; bole behind bora park</a
+                >
+                <br />
+              </p>
+
+              <p class="comment">
+                Our sympathy cards convey solace and remembrance, providing a
+                delicate and dignified way to share your deepest condolences
+                during moments of loss
+              </p>
+              <button type="submit">
+                <a
+                  href="../individual/funeral/cards/Cards 2/individual.html"
+                  class="contactbtn"
+                  >Contact</a
+                >
+              </button>
+            </div>
+
+            <div class="box">
+              <img
+                src="../Resources/Images/funeral/funeral card 3.jpg"
+                alt="Special Image"
+              />
+              <h2>Harmony Memorial Stationery</h2>
+              <div class="rating">
+                <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>5.0(675)
+              </div>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps?q=789+Maple+St"
+                  target="_blank"
+                  >&#127968; Megenagna ..zemen building 1st floor</a
+                >
+                <br />
+              </p>
+
+              <p class="comment">
+                In times of sorrow, our funeral cards speak volumes of
+                compassion and support, offering a thoughtful and enduring
+                gesture to comfort grieving hearts with timeless elegance.
+              </p>
+              <button type="submit">
+                <a
+                  href="../individual/funeral/cards/Cards 3/individual.html"
+                  class="contactbtn"
+                  >Contact</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="Tents and Chairs">
+          <h1>Tents and Chairs</h1>
+          <div class="box-container">
+            <div class="box">
+              <img
+                src="../Resources/Images/funeral/Tent1.jpg "
+                alt="Burger Image"
+              />
+              <h2>Elegant Oasis Rentals</h2>
+              <div class="rating">
+                <span>&#9733;&#9733;&#9734;&#9734;&#9734;</span>5.0(565)
+              </div>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps?q=789+Maple+St"
+                  target="_blank"
+                  >&#127968; Megenagna ..zemen building 1st floor</a
+                >
+                <br />
+              </p>
+
+              <p class="comment">
+                Transform your event with our curated collection of exquisite
+                tents and chairs, ensuring sophistication and lasting
+                impressions.
+              </p>
+              <button type="submit">
+                <a
+                  href="../individual/funeral/Tents/Tents 1/individual.html"
+                  class="contactbtn"
+                  >Contact</a
+                >
+              </button>
+            </div>
+
+            <div class="box">
+              <img
+                src="../Resources/Images/funeral/Tent2.jpg"
+                alt="Pizza Image"
+              />
+              <h2>Event Elegance Rentals</h2>
+              <div class="rating">
+                <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>5.0(878)
+              </div>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps?q=789+Maple+St"
+                  target="_blank"
+                  >&#127968; Megenagna ..zemen building 1st floor</a
+                >
+                <br />
+              </p>
+
+              <p class="comment">
+                Craft comfort under the stars with our range of celestial tents
+                and chairs, perfect for adding a touch of magic to any
+                gathering.
+              </p>
+              <button type="submit">
+                <a
+                  href="../individual/funeral/Tents/Tents 2/individual.html"
+                  class="contactbtn"
+                  >Contact</a
+                >
+              </button>
+            </div>
+
+            <div class="box">
+              <img
+                src="../Resources/Images/funeral/Tent3.jpg"
+                alt="Special Image"
+              />
+              <h2>Royal Retreat Events</h2>
+              <div class="rating">
+                <span>&#9733;&#9733;&#9733;&#9734;&#9734;</span>5.0(19k)
+              </div>
+              <p>
+                <strong>Address:</strong>
+                <a
+                  href="https://www.google.com/maps?q=789+Maple+St"
+                  target="_blank"
+                  >&#127968; Megenagna</a
+                >
+                <br />
+              </p>
+
+              <p class="comment">
+                Tailored seating solutions for your vision, blending style and
+                comfort seamlessly for a harmonious event experience.
+              </p>
+              <button type="submit">
+                <a
+                  href="../individual/funeral/Tents/Tents 3/individual.html"
+                  class="contactbtn"
+                  >Contact</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <ul>
+          <li><h3>Navigation</h3></li>
+          <li><a href="../home.html">Home</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./events.html">Events</a></li>
+        </ul>
+        <ul>
+          <li><h3>Services</h3></li>
+          <li><a href="./wedding.html">Wedding</a></li>
+          <li><a href="./birthday.html">Birthday</a></li>
+          <li><a href="./concert.html">Concert</a></li>
+          <li><a href="./funeral.html">Funeral</a></li>
+          <li><a href="./graduation.html">Graduation</a></li>
+        </ul>
+        <ul>
+          <li><h3>Customer</h3></li>
+          <li><a href="./login.html">Login</a></li>
+          <li><a href="./FAQ.html">FAQ</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+        <ul>
+          <li><h3>Service Provider</h3></li>
+          <li><a href="./ServiceProviderssignup.html">Register</a></li>
+          <li><a href="./FAQ.html">FAQ</a></li>
+        </ul>
+        <ul>
+          <li><h3>Contact Us</h3></li>
+          <li><a href="#">Email</a></li>
+          <li><a href="#">linkedin</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Telegram</a></li>
+        </ul>
+      </div>
+      <h6>Copyright &copy 20204 LinkE.com</h6>
+    </footer>
+  </body>
+</html>

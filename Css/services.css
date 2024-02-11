@@ -1,119 +1,121 @@
+.contactbtn {
+  color: white;
+}
 .service_head {
-    position: relative;
-    background-attachment: fixed;
-    height: 500px;
-    margin-bottom: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    z-index: -1;
+  position: relative;
+  background-attachment: fixed;
+  height: 500px;
+  margin-bottom: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  z-index: -1;
 }
 
 .service {
-    padding: 20px 20px 20px 60px;
-    position: absolute;
-    bottom: 40px;
-    background-color: black;
-    width: 500px;
-    height: 100px;
-    font-size: 40px;
-    border-radius: 0 0 50px 0;
+  padding: 20px 20px 20px 60px;
+  position: absolute;
+  bottom: 40px;
+  background-color: black;
+  width: 500px;
+  height: 100px;
+  font-size: 40px;
+  border-radius: 0 0 50px 0;
 }
 
 .services {
-    margin: 20px auto;
-    padding: 30px;
-    width: 90%;
-    background-color: rgb(231, 231, 231);
+  margin: 20px auto;
+  padding: 30px;
+  width: 90%;
+  background-color: rgb(231, 231, 231);
 }
 
 .services h1 {
-    padding-left: 40px ;
+  padding-left: 40px;
 }
 
 .box-container {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 10px auto;
-    max-width: 1200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px auto;
+  max-width: 1200px;
 }
 
 .box {
-    position: relative;
-    text-align: center;
-    width: 60%;
-    padding: 15px;
-    margin: 10px auto;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    display: grid;
-    place-items: center;
+  position: relative;
+  text-align: center;
+  width: 60%;
+  padding: 15px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: grid;
+  place-items: center;
 }
 
 .services img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 10px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 h2 {
-    margin-top: 0;
-    color: #333;
+  margin-top: 0;
+  color: #333;
 }
-
 
 .rating {
-    font-size: 20px;
+  font-size: 20px;
 }
-.rating span{
-    color: #FFD700;
-    font-size: 28px;
-    padding-right: 5px;
+.rating span {
+  color: #ffd700;
+  font-size: 28px;
+  padding-right: 5px;
 }
 
 p {
-    margin: 5px 0;
-    color: #666;
+  margin: 5px 0;
+  color: #666;
 }
 
 a {
-    color: #4285f4;
-    text-decoration: none;
+  color: #4285f4;
+  text-decoration: none;
 }
 
 .address {
-    font-style: italic;
-    color: #888;
+  font-style: italic;
+  color: #888;
 }
 .comment {
-    color: gray;
-    margin-bottom: 50px;
+  color: gray;
+  margin-bottom: 50px;
 }
 button {
-    position: absolute;
-    bottom: 10px;
-    background-color: rgb(70, 118, 223);
-    border: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-    color: white;
-    cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  background-color: rgb(70, 118, 223);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: white;
+  cursor: pointer;
 }
 
 button:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 @media (min-width: 1024px) {
-    .box-container{
-        flex-direction: row;
-    }
+  .box-container {
+    flex-direction: row;
+  }
 
-    .box {
-        margin: 10px;
-    }
+  .box {
+    margin: 10px;
+  }
 }

@@ -1,0 +1,40 @@
+.payment {
+  margin-top: 50px;
+}
+.headbook {
+  margin-left: 20%;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+form {
+  background-color: #fff;
+  padding: 70px;
+  border-radius: 8px;
+  width: 70%;
+  max-width: 700px;
+  margin: 10px auto;
+  color: black;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 2);
+  font-size: 20px;
+}
+form select {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+form option {
+  font-size: 20px;
+}
+
+.choosebank {
+  padding: 5px 10px;
+}
+.bookbutton {
+  background-color: #17139d;
+  color: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  max-width: 80px;
+  margin-left: 66%;
+  margin-bottom: -660px;
+  font-size: 20px;
+}

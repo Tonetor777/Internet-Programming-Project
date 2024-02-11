@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.profile {
+  max-height: 210px;
+  max-width: 300px;
+  min-width: 310px;
+}
+.ratingg {
+  text-align: center;
+}
+.ratingg span {
+  color: #ffd700;
+  padding-right: 5px;
+  font-size: 30px;
+}
+
+.side-box {
+  margin-top: -150px;
+  margin-left: 100px;
+  max-width: 350px;
+  padding: 12px 20px 10px;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+  place-items: center;
+}
+.side-box h2 {
+  margin-left: 50px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.secondline {
+  margin-left: 10px;
+}
+.gallery {
+  position: relative;
+  margin-left: 500px;
+  margin-top: -220px;
+  height: 500px;
+  padding: 20px;
+}
+
+.gallery-image {
+  display: block;
+  height: 100%;
+  border-radius: 18px;
+  max-width: 700px;
+  min-width: 700px;
+}
+
+.arrow {
+  position: absolute;
+  font-size: 30px;
+  margin-left: 650px;
+  margin-bottom: 20%;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  border: #fff;
+}
+.overview {
+  margin-left: 130px;
+  max-width: 60%;
+  font-size: 20px;
+  border-radius: 5%;
+  font-family: Arial, sans-serif;
+  margin-top: -35px;
+  border: 2px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.first {
+  margin-top: 30px;
+}
+.overview p {
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+.overviewhead {
+  margin-left: 150px;
+  margin-top: 40px;
+  margin-bottom: -60px;
+}
+.description {
+  display: flex;
+}
+.review {
+  margin-left: 340px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.prof {
+  font-size: 30px;
+  background-color: palevioletred;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.prof p {
+  color: #fff;
+  margin-left: 15px;
+}
+.profilepic {
+  display: flex;
+  font-size: 20px;
+  max-height: 60px;
+}
+
+.profilepic .rating span {
+  font-size: 25px;
+  margin-left: -50px;
+  margin-right: 15px;
+}
+.person {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.date {
+  margin-left: 25px;
+  font-size: 20px;
+}
+hr {
+  border: none;
+  margin: 25px;
+  height: 1px;
+  background-color: #dddddd;
+}
+.text p {
+  font-size: px;
+  max-width: 740px;
+  margin-top: 14px;
+}
+.booking {
+  margin-left: 130px;
+  max-width: 60%;
+  font-size: 20px;
+  border-radius: 5%;
+  font-family: Arial, sans-serif;
+  margin-top: -35px;
+}
+.booking p {
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+.expectation {
+  margin-top: 79px;
+}
+.book {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 10px;
+  background-color: #17139d;
+  border-radius: 8px;
+  padding: 15px;
+  width: 80%;
+  margin-left: 100%;
+}
+.revibtn {
+  background-color: #17139d;
+  color: #fff;
+  border-radius: 8px;
+  padding: 15px;
+}
+.rve {
+  margin-top: 30px;
+}
+.ratingreview {
+  color: #ffd700;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.rating {
+  font-size: 40px;
+  cursor: pointer;
+  margin-right: 600px;
+}
+.rating .star {
+  font-size: 60px;
+}
+.star {
+  font-size: inherit;
+  color: #ddd; /* Empty star color */
+  transition: color 0.2s;
+}
+
+.rated .star {
+  color: #ffcc00; /* Yellow star color */
+}
+input {
+  padding: 10px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+textarea {
+  width: 400px;
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.review {
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  max-width: 80%;
+}
+label {
+  margin-bottom: 10px;
+}
+.submit {
+  background-color: #17139d;
+  color: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  max-width: 80px;
+  margin-left: 60%;
+}
