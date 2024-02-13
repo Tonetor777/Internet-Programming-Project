@@ -40,9 +40,7 @@ input[type="submit"] {
   cursor: pointer;
   min-width: 100%;
 }
-input[type="submit"]:hover {
-  background-color: blue;
-}
+
 .error {
   border: 1px solid red;
 }

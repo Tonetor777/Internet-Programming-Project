@@ -3,13 +3,18 @@
   var confirmPassword = document.getElementById("confirmPassword");
   var passwordError = document.getElementById("passwordError");
 
+  if (!isStrongPassword(password.value)) {
+    return false;
+  }
+
  // Confirm password match
   if (password.value !== confirmPassword.value) {
     password.classList.add("error");
     confirmPassword.classList.add("error");
     passwordError.innerText = "Passwords do not match!";
     return false;
-  } else {
+   } 
+  else {
     password.classList.remove("error");
     confirmPassword.classList.remove("error");
     passwordError.innerText = "";
