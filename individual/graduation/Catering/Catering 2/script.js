@@ -5,9 +5,7 @@ const images = ["image1.jpeg", "image2.jpeg", "image3.jpg"];
 function scrollGallery(direction) {
   currentIndex += direction;
 
-  if (currentIndex < 0) {
-    currentIndex = images.length - 1;
-  } else if (currentIndex >= images.length) {
+   if (currentIndex >= images.length) {
     currentIndex = 0;
   }
 
