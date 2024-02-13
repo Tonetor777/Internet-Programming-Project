@@ -20,7 +20,7 @@ body {
 }
 
 .faq-question {
-  background-color: blue;
+  background-color: rgb(25, 25, 105);
   color: #fff;
   padding: 15px;
   cursor: pointer;

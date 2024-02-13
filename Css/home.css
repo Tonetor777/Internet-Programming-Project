@@ -48,6 +48,9 @@ nav li:hover {
   color: white;
   cursor: pointer;
 }
+.loginbtn{
+  padding: 2px 5px;
+}
 .links {
   display: flex;
   justify-content: space-around;
@@ -267,6 +270,7 @@ footer h6 {
   .head {
     height: 800px;
   }
+
   .head_text {
     width: 50%;
     padding: 40px;
